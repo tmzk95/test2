@@ -1,21 +1,291 @@
-<!Doctype="html">
+<!DOCTYPE="html">
 
 <html>
 
 
 
-
-
-
 <head>
+
+
 	<meta charset="utf-8"/>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'/>
-	<link rel="stylesheet" href="styles/style.css" />
+	<title>TT Prostowanie Felg</title>
+	<meta name="description" content="Prostowanie Felg, Auto-naprawa, Wulkanizacja"/>
+	<meta name="keywords" content="mechanika, mechanik, prostowanie, prostowac, prostowarka, wyprostowac, felg, felgi, felga, felge, kolo, kola, auto, naprawa, serwis, samochodowy, samochod, samochody, wulkanizacja, wymiana, wymienic, wymienie, opon, opony, opone, renowacja, piaskowanie, spawanie, lublin, tt, uslugi, serwisowe, regeneracja, regenerowac, kalibrowanie, odksztalcenia, odksztalcen, darmowy, dojazd, warsztat"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+	
+	
+	<link rel="stylesheet" href="style2.css" type="text/css"/>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	
+	
+	<script>
+		function abrak() {
+		document.getElementById("opis3").innerHTML = '<div id="opis4"><div style="color: #2F9E93; text-align: center; padding: 0px 0px 40px 0px; font-size: 18px; font-weight: 700; letter-spacing: 1px;">Prostowanie Felg</div><div style="padding: 0px 0px;">Regeneracja felg aluminiowych w przedziale rozmiarowym 13’’ - 19’’. Polega ona na naprawie różnego rodzaju uszkodzeń takich jak: podgięcia, podbicia i odkształcenia osiowe. Podstawowa naprawa polega na prostowaniu przy pomocy prostowarki a w bardziej skomplikowanych przypadkach takich jak pęknięcia lub uszkodzenia rantów dodatkowo przy pomocy spawarki inwertorowej. Cały proces naprawy felgi trwa od 1 do 4 godz.</div></div>';
+		}
+		
+		function abrak2() {
+		document.getElementById("opis3").innerHTML = '<div style="color: #2F9E93; text-align: center; padding: 0px 20px 40px 20px; font-size: 18px; font-weight: 700; letter-spacing: 1px;">Prostowanie Felg</div><div style="padding: 0px 20px;">Regeneracja felg aluminiowych w przedziale rozmiarowym 13’’ - 19’’. Polega ona na naprawie różnego rodzaju uszkodzeń takich jak: podgięcia, podbicia i odkształcenia osiowe. Podstawowa naprawa polega na prostowaniu przy pomocy prostowarki a w bardziej skomplikowanych przypadkach takich jak pęknięcia lub uszkodzenia rantów dodatkowo przy pomocy spawarki inwertorowej. Cały proces naprawy felgi trwa od 1 do 4 godz.</div>';
+		}
+		
+		var i = 0;
+		var j = 0;
+		var k = 0;
+		var tablica = new Array("Prostowanie Felg", "Auto Naprawa", "Wulkanizacja", "Naprawy zawieszenia", "Naprawy układu hamulcowego", "Wymiana rozrządu", "Wymiana oleju","Wymiany i naprawy układu wydechowego", "Inne drobne naprawy samochodowe");
+		
+		var tablica2 = new Array('<img src="img/s1.jpg"/>', '<img src="img/s2.jpg"/>', '<img src="img/s3.jpg"/>', '<img src="img/s4.jpg"/>');
+		
+		var tablica3 = new Array('<div class="zdjA"></div><div class="zdj"></div><div class="zdj"></div><div class="zdj"></div>', '<div class="zdj"></div><div class="zdjA"></div><div class="zdj"></div><div class="zdj"></div>', '<div class="zdj"></div><div class="zdj"></div><div class="zdjA"></div><div class="zdj"></div>', '<div class="zdj"></div><div class="zdj"></div><div class="zdj"></div><div class="zdjA"></div>');
+		
+		function zmienNapis() {
+		
+			if(!tablica[i]){
+				i=0;
+			}
+			
+			document.getElementById("A").innerHTML = tablica[i];
+			
+			i++;
+			setTimeout("zmienNapis()", 2000);
+		}
+		
+		function zmienZdjecie() {
+		
+			if(!tablica2[j]){
+				j=0;
+			}
+			
+			document.getElementById("zdjecie").innerHTML = tablica2[j];
+			
+			document.getElementById("zdjecie2").innerHTML = tablica3[j];
+			
+			j++;
+			setTimeout("zmienZdjecie()", 5000);
+		}
+		
+		function zmienZdjecie2() {
+		
+			if(!tablica2[k]){
+				k=0;
+			}
+			
+			document.getElementById("zdjecie2").innerHTML = tablica3[k];
+			
+			k++;
+			setTimeout("zmienZdjecie2()", 5000);
+		}
+		
+		
+		
+	</script>
+	
+	
+	
 </head>
 
-<body>
-	<div id="container">
-		<h1>Test nr 2</h1>
+
+
+
+<body onload="zmienNapis(), zmienZdjecie()">
+
+
+	<div id="gora">
+	
+			
+			
+			
+		
+			
+			<div id="menu">
+			
+				<div class="option">Tel.: 511 566 333</div>
+				<div class="option">Lublin, ul. Hajdowska 8</div>
+				
+					
+			</div>
+
+			
+			
+			<div class="clear"></div>
+		
+			<div id="naglowek">
+
+				<div id="logoL"><b><i>TT</i></b></div>
+				<div id="logoR">Prostowanie Felg</div>
+				<div id="logoRR">Auto Naprawa</div>
+				
+				
+				
+			</div>
+			
+			
+			
+			<div class="clear"></div>
+		
+
+	
 	</div>
+	
+	
+	
+	
+	
+	<div id="bar">
+	
+		<div id="menu2">
+		
+			<div class="option3" style="width:4px;"></div>
+			<a href="index.html" style="background-color:#152A47;">Oferta</a>
+			<div class="option3" style="width:4px;"></div>
+			<a href="kontakt.html">Kontakt</a>
+			<div class="option3" style="width:4px;"></div>
+			<a href="cennik.html">Cennik</a>
+			<div class="option3" style="width:4px;"></div>
+			<a href="dojazd.html">Dojazd</a>
+			<div class="option3" style="width:4px;"></div>
+			
+			<div class="clear"></div>
+			
+				
+		</div>
+	
+	</div>
+
+
+	<div id="A" style="background-color:#0F1D30;"></div>
+	
+	
+	<div id="content">
+		
+		
+		
+		
+		
+		<div id="content2" style="margin-bottom: 120px; padding: 20px 0px; background-color: #1F2D40;">
+		
+		
+		
+			<div style="color: #DE8D00; text-align: center; padding: 0px 0px 5px 0px; font-size: 20px; font-weight: 700; letter-spacing: 1px;">
+				Promocja!
+			</div>
+			<div style="clear:both; line-height: 26px; text-align: center;">
+				Na życzenie klienta odbierzemy pojazd z miejsca pracy lub zamieszkania i odstawimy go
+				po wykonaniu usługi, <br>
+				<span style="font-size: 20px; font-weight: 700;">BEZPŁATNIE</span> na terenie Lublina
+			</div>
+			
+			
+			
+			
+		</div>
+		
+		
+		
+		
+		<div id="content2">
+		
+		
+		
+			<div class="opis">
+			<div style="color: #DE8D00; text-align: center; padding: 20px 20px 40px 20px; font-size: 18px; font-weight: 700; letter-spacing: 1px;">
+				Prostowanie Felg
+			</div>
+			<div style="padding: 0px 20px; margin-bottom: 30px;">
+				Regeneracja felg aluminiowych w przedziale rozmiarowym 13’’ - 19’’.
+				Polega ona na naprawie różnego rodzaju uszkodzeń takich jak:
+				podgięcia, podbicia i odkształcenia osiowe. Podstawowa naprawa polega na
+				prostowaniu przy pomocy prostowarki a w bardziej skomplikowanych przypadkach
+				takich jak pęknięcia lub uszkodzenia rantów dodatkowo przy pomocy spawarki inwertorowej.
+				Cały proces naprawy felgi trwa od 1 do 4 godz.
+			</div>
+			</div>
+			
+			
+			
+			<div class="opis">
+			<div style="color: #2D6599; text-align: center; padding: 20px 20px 40px 20px; font-size: 18px; font-weight: 700; letter-spacing: 1px;">
+				Wulkanizacja
+			</div>
+			<div style="padding: 0px 20px; margin-bottom: 30px; border-left: solid 2px #152A47; border-right: solid 2px #152A47;">
+				Większość zakładów wulkanizacyjnych nie zwraca uwagi na stan rantów opony,
+				stan mieszanki gumowej i wiele aspektów bezpieczeństwa.
+				W naszym zakładzie klient uzyska kompleksowe doradztwo w kwestii stanu
+				ogumienia swojego samochodu, co pozwoli mu podjąć właściwą decyzję odnośnie
+				kierunków jego dalszej eksploatacji. Czas demontażu,  naprawy uszkodzonej opony
+				wraz z jej wyważeniem oraz jej montażu trwa od 15 do 30 minut.
+			</div>
+			</div>
+			
+			
+			
+			<div class="opis">
+			<div style="color: #2D6599; text-align: center; padding: 20px 20px 40px 20px; font-size: 18px; font-weight: 700; letter-spacing: 1px;">
+				Mechanika samochodowa
+			</div>
+			<div style="padding: 0px 20px; margin-bottom: 30px; text-align: left;">
+				<ul>
+				<li type="square">Naprawy zawieszenia</li>
+				<li type="square">Naprawy układu hamulcowego</li>
+				<li type="square">Wymiana rozrządu</li>
+				<li type="square">Wymiana oleju</li>
+				<li type="square">Wymiany i naprawy układu wydechowego</li>
+				<li type="square">Inne drobne naprawy samochodowe</li>
+				</ul>
+				<br>
+
+				Przyblizona cena usługi jest ustalana przed jej wykonaniem
+			</div>
+			</div>
+			
+			
+			
+			
+			
+			<div class="clear"></div>
+		
+		
+		</div>
+		
+		
+		<div id="nazd">
+		
+			<div class="pole"></div>
+			<div id="zdjecie"><img src="img/s1.jpg"/></div>
+			<div class="pole"></div>
+			
+			
+			<div class="clear"></div>
+			
+			
+			<div id="zdjecie2">
+			<div class="zdj"></div>
+			<div class="zdj"></div>
+			<div class="zdj"></div>
+			<div class="zdj"></div>
+			</div>
+			
+			
+			<div class="clear"></div>
+			
+		</div>
+		
+		
+	</div>
+	
+	
+	<div id="footer">
+		TT Prostowanie Felg	Auto Naprawa Wulkanizacja
+	</div>
+	
+	
+
+	
 </body>
+
+
+
 </html>
+
+
+
