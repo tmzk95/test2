@@ -36,9 +36,9 @@ a:hover{
 
 #gora {
 	/*background-image: url(img/tree2.png); /* from http://subtlepatterns.com */
-	background: linear-gradient(to left, rgba(27,53,89,0.8), rgba(21,42,71,1));
-	height: 240px;
-	box-shadow: inset 3em 0em 8em rgba(15,29,48,1);
+	background: linear-gradient(to left, rgba(230,120,40,1), rgba(230,120,40,1));
+	height: 400px;
+	box-shadow: inset 3em 0em 8em rgba(190,60,20,1);
 }
 
 #pasek {
@@ -48,31 +48,32 @@ a:hover{
 
 #naglowek {
 	padding-left: 40px;
-	padding-top: 40px;
+	padding-top: 0px;
 	float: left;
 }
 
 #logoL {
-	color: #DE5500/*#D85615*/;
+	color: #444444/*#D85615*/;
 	font-weight: 700;
-	font-size: 80px;
+	font-size: 280px;
 	float: left;
-	text-shadow: 0em 0em 1em black;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 
 #logoR {
-	padding-left: 40px;
 	font-size: 24px;
-	padding-top: 24px;
+	color: #444444/*#D85615*/;
+	padding-top: 217px;
 	float: left;
-	text-shadow: 0em 0em 1em black;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 
 #logoRR {
-	padding-left: 150px;
+	padding-left: 180px;
+	color: #444444/*#D85615*/;
 	font-size: 20px;
 	padding-top: 27px;
-	text-shadow: 0em 0em 0.3em black;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 
 #zdj {
@@ -523,7 +524,7 @@ a:hover{
 	font-weight: 700;
 	padding: 21px 0px;
 	width: 100%;
-	margin-right: 4px;
+	margin-right: 0px;
 }
 
 .panelR1 {
